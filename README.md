@@ -23,12 +23,9 @@
       <a href="#getting-started">Getting Started</a>
       <ul>
         <li><a href="#prerequisites">Pre Requisites</a></li>
-        <li><a href="#installation">Instalation</a></li>
       </ul>
     </li>
     <li><a href="#run">Running</a></li>
-    <li><a href="#usecases">Use Cases</a></li>
-    <li><a href="#roadmap">Roadmap</a></li>
     <li><a href="#contact">Contact</a></li>
     <li><a href="#acknowledgements">Reference</a></li>
   </ol>
@@ -39,52 +36,34 @@
 <!-- ABOUT THE PROJECT -->
 ## About the project
 
-The objective of this project is to answer 3 business questions to meet the requirements of Project 1, from Udacity Data Scientist course. The chosen database was from Airbnb, with the objective of evaluating the data to assist students in Canada, a famous destination for studying the English language. 
+The objective of this project is to create a recommender of articles to to users on the IBM Watson Studio Plataform. 
 
 ### Frameworks
 
 To run the notebook, it is necessary to install the following frameworks:
 
-* [Scikit Learn](https://scikit-learn.org/)
+Pandas
+Numpy
+Matplotlib
 
 <!-- GETTING STARTED -->
 ## Getting Started
 
-The notebook was developed in the environment [Google Colab](https://colab.research.google.com/github/tensorflow/examples/blob/master/courses/udacity_intro_to_tensorflow_for_deep_learning/l01c01_introduction_to_colab_and_python.ipynb)
+The notebook was developed in Jupyter Notebook
 
 ### Prerequisites
 
 This notebook was tested using Python 3.7+
 
-### Instalation
-
-!pip install -U scikit-learn
-
-(In case you already have the scikit learn installed, you just need to import the library before running the code)
-
-
 <!-- RUN -->
 ## Running
 
-There are 2 notebooks to be executed. Udacity_Projeto_1_Part_I is related to the first business question, and Udacity_Projeto_1_Part_II. The databases to be used on both is calendar and listings (they was uploaded in [Google Drive](https://drive.google.com/drive/folders/19OyP2QDz1iAcIGm-K_yVUe9yaePowjec?usp=sharing).
+The notebook is divided by following parts:
 
-
-<!-- USECASES -->
-## Use Cases
-
-Motivation: Support students who wants to travel abroad to study English, in order to improve a best choice and improve the planner.
-Three business questions:
-- Can they spend less money at some specific season or period time of the year?
-- What are the accommodation information most correlated to price variation?
-- Is possible to predict the price for respective acomodation according it features? 
-
-
-<!-- ROADMAP -->
-## Roadmap
-
-Retrain the models to improve predictions
-
-Collect other relevant pieces of information of accommodations and research about the rules of prices formulation.
+I. Exploratory Data Analysis
+II. Rank Based Recommendations
+III. User-User Based Collaborative Filtering
+V. Matrix Factorization
 
 
 <!-- CONTACT -->
