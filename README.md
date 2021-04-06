@@ -42,9 +42,9 @@ The objective of this project is to create a recommender of articles to to users
 
 To run the notebook, it is necessary to install the following frameworks:
 
-Pandas 
-Numpy 
-Matplotlib 
+    Pandas 
+    Numpy 
+    Matplotlib 
 
 <!-- GETTING STARTED -->
 ## Getting Started
@@ -60,10 +60,10 @@ This notebook was tested using Python 3.7+
 
 The notebook is divided by following parts:
 
-I. Exploratory Data Analysis 
-II. Rank Based Recommendations 
-III. User-User Based Collaborative Filtering 
-V. Matrix Factorization 
+    I. Exploratory Data Analysis 
+    II. Rank Based Recommendations 
+    III. User-User Based Collaborative Filtering 
+    V. Matrix Factorization 
 
 
 <!-- CONTACT -->
